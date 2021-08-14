@@ -1,0 +1,13 @@
+<table style="width: 80%;">
+    <tr>
+        <th>#</th>
+        <th>Nome Pokémon</th>
+        <th></th>
+    </tr>
+
+    <tr *ngFor="let pokemon of pokemons">
+        <td>{{ pokemon.id }}</td>
+        <td>{{ pokemon.name }}</td>
+    </tr>
+
+</table>

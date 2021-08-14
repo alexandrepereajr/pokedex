@@ -1,0 +1,27 @@
+GET https://pokeapi.co/api/v2/pokemon/?offset=0&limit=50"
+
+###
+
+GET http://localhost:3000/cursos/3
+
+###
+
+POST https://pokeapi.co/api/v2/pokemon/?offset=0&limit=20" HTTP/1.1 
+content-type: application/json
+
+{
+    
+}
+
+###
+
+PUT http://localhost:3000/cursos/2 HTTP/1.1 
+content-type: application/json
+
+{
+    
+}
+
+###
+
+DELETE http://localhost:3000/cursos/2
